@@ -1,0 +1,106 @@
+body {
+  font-family: arial;
+}
+
+header {
+  height: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #b70000;
+  color: white;
+}
+
+.title {
+  font-size: 25px;
+}
+
+nav {
+  display: flex;
+  height: 40px;
+  flex-direction: row-reverse;
+  background-color: #3d3d3d
+}
+
+.nav_links {
+  margin-right: 20px;
+  width: 12%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+a {
+  font-size: 12px;
+  color: white;
+}
+
+.middle {
+  height: 80%;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fill {
+  width: 100%;
+  max-height: 70%;
+}
+
+
+article {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p {
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  font-size: 14px;
+}
+
+.dam {
+  font-weight: bold;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+aside {
+  width: 25%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.small_pic {
+  width: 250px;
+  }
+
+.titles {
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  padding-bottom: 5px;
+  display: flex;
+}
+
+footer {
+  height: 70px;
+  background-color: #3d3d3d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
